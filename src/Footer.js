@@ -28,7 +28,7 @@ export default function Footer() {
 
       <div className="footer-bg">
         <Container>
-          <Row className="text-center " style={{ color: "#666" }}>
+          <Row className="text-center" style={{ color: "#666" }}>
             <Col md={4} className="footer-item">
               <MapPin size={15} />
               <p>
@@ -65,14 +65,29 @@ export default function Footer() {
 
           <Row className="text-center text-black">
             <Col>
-              <a href="#" className="social-icon">
-                {/* <Linkedin size={15} /> */}
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Linkedin size={15} />
               </a>
-              <a href="#" className="social-icon">
-                {/* <Facebook size={15} /> */}
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Facebook size={15} />
               </a>
-              <a href="#" className="social-icon">
-                {/* <Instagram size={15} /> */}
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Instagram size={15} />
               </a>
             </Col>
           </Row>
@@ -80,12 +95,11 @@ export default function Footer() {
           <Row className="text-center pt-2" style={{ color: "#666" }}>
             <Col className="copy">
               <p>© 2025 Copyright All rights reserved by KINTECH</p>
-              <a href="#" className="footer-link">
+              <a href="/privacy" className="footer-link">
                 Privacy Policy
               </a>{" "}
-              |
-              <a href="#" className="footer-link">
-                {" "}
+              |{" "}
+              <a href="/terms" className="footer-link">
                 Terms & Conditions
               </a>
             </Col>
