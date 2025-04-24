@@ -66,13 +66,13 @@ export default function Footer() {
           <Row className="text-center text-black">
             <Col>
               <a href="#" className="social-icon">
-                <Linkedin size={15} />
+                {/* <Linkedin size={15} /> */}
               </a>
               <a href="#" className="social-icon">
-                <Facebook size={15} />
+                {/* <Facebook size={15} /> */}
               </a>
               <a href="#" className="social-icon">
-                <Instagram size={15} />
+                {/* <Instagram size={15} /> */}
               </a>
             </Col>
           </Row>

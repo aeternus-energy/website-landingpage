@@ -5,7 +5,6 @@ import About from "./About";
 import Services from "./Services";
 import ContactUs from "./Contactus";
 import Footer from "./Footer";
-import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
