@@ -1,0 +1,33 @@
+.nav-hover {
+  color: #808080 !important;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-hover:hover {
+  color: #007bff !important;
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  transition: font-size 0.3s ease-in-out;
+}
+.header-navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-nav .nav-link {
+    font-size: 0.6rem;
+  }
+}

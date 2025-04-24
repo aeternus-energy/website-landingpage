@@ -1,0 +1,145 @@
+.services-section {
+  text-align: center;
+}
+
+.service-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+  background: white;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-img {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.service-card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #222;
+}
+
+.service-text {
+  color: #666;
+  font-size: 0.8rem;
+  text-align: center;
+  flex-grow: 1;
+}
+.service-t {
+  text-align: center;
+  font-size: 2rem;
+}
+.service-t1 {
+  color: #666;
+  font-size: 1rem;
+  flex-grow: 1;
+  margin-bottom: 50px;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 9px;
+    transition: transform 0.3s ease-in-out;
+    background: white;
+    text-align: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .service-t {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .service-t1 {
+    color: #666;
+    font-size: 0.8rem;
+    flex-grow: 1;
+    margin-bottom: 40px;
+  }
+  .service-img {
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+  }
+  .service-title {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #222;
+  }
+
+  .service-text {
+    color: #666;
+    font-size: 0.7rem;
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    transition: transform 0.3s ease-in-out;
+    background: white;
+    text-align: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .service-t {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .service-t1 {
+    color: #666;
+    font-size: 0.6rem;
+    flex-grow: 1;
+    margin-bottom: 30px;
+  }
+  .service-img {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 0px;
+  }
+  .service-title {
+    font-weight: bold;
+    font-size: 0.6rem;
+    color: #222;
+  }
+
+  .service-text {
+    color: #666;
+    font-size: 0.45rem;
+    flex-grow: 1;
+  }
+}
